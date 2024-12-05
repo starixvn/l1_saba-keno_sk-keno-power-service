@@ -14,7 +14,7 @@ export const hedgeBetGroups = [
 
 export default [
     {
-        id: 40,
+        id: 1509,
         name: "KenoPower1",
         durations: {
             wholeRound: 50,
@@ -34,7 +34,7 @@ export default [
         settle: getSettlementResult,
     },
     {
-        id: 41,
+        id: 1510,
         name: "KenoPower2",
         durations: {
             wholeRound: 54,
