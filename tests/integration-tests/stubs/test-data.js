@@ -1,13 +1,13 @@
 const game = {
-    id: 40,
-    name: "kenopower1",
+    id: 1509,
+    name: "skkenopower",
 };
 
 const currencyData = { code: "USD", name: "$US" };
 
 const socketOptions = {
     socketUri: `http://localhost:8089/user/${game.name}`,
-    gameName: "KenoPower1",
+    gameName: "KenoPower",
     proxyRoute: "/socket.io",
 };
 

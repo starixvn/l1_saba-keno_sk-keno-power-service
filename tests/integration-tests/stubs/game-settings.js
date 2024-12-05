@@ -7,8 +7,8 @@ import getBetLogsRepository from "../../../src/models/bet-logs";
 
 export default [
     {
-        id: 40,
-        name: "KenoPower1",
+        id: 1509,
+        name: "KenoPower",
         durations: {
             wholeRound: 50,
             placingBets: 42,
@@ -19,9 +19,9 @@ export default [
         defaultBetTracks: {},
         hedgeBetGroups,
         repositories: {
-            roundsRepository: getRoundRepository("kenopower1_phien"),
-            betsRepository: getBetRepository("kenopower1_one"),
-            betLogsRepository: getBetLogsRepository("kenopower1_cuoc"),
+            roundsRepository: getRoundRepository("kenopower_rounds"),
+            betsRepository: getBetRepository("kenopower_bets"),
+            betLogsRepository: getBetLogsRepository("kenopower_betlogs"),
         },
         generateResult,
         settle: getSettlementResult,

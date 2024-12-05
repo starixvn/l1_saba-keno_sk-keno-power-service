@@ -54,7 +54,7 @@ const getUserId = async (playerId) => {
 
 const createRounds = async () => {
     try {
-        return kenoPowerRounds("kenopower1_phiens").insertMany(rounds);
+        return kenoPowerRounds("kenopower_roundss").insertMany(rounds);
     } catch (error) {
         console.log(error);
     }
@@ -63,7 +63,7 @@ const createRounds = async () => {
 const createUserBetData = async () => {
     const userId = await getUserId(normalUser.playerId);
     const betData = userBetData(userId);
-    return bets("kenopower1_cuocs").insertMany(betData);
+    return bets("kenopower_betlogss").insertMany(betData);
 };
 
 createTestData();

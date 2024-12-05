@@ -9,8 +9,8 @@ import { GameCron } from "../../../src/crons/game-cron";
 
 describe("game cron instance", () => {
     const definition = {
-        id: 40,
-        name: "KenoPower1",
+        id: 1509,
+        name: "KenoPower",
         durations: {
             wholeRound: 50,
             placingBets: 37,
