@@ -15,7 +15,7 @@ export const hedgeBetGroups = [
 export default [
     {
         id: 1509,
-        name: "SkKenoPower",
+        name: "KenoPower",
         durations: {
             wholeRound: 50,
             placingBets: 42,
@@ -35,7 +35,7 @@ export default [
     },
     {
         id: 1510,
-        name: "SkKenoPower2",
+        name: "KenoPower2",
         durations: {
             wholeRound: 54,
             placingBets: 42,

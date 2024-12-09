@@ -1,6 +1,6 @@
 const game = {
     id: 1509,
-    name: "skkenopower",
+    name: "kenopower",
 };
 
 const currencyData = { code: "USD", name: "$US" };
