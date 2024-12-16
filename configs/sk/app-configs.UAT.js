@@ -22,7 +22,7 @@ export default {
         audiences: ["api", "admin-api"],
     },
     userServiceSettings: {
-        url: "http://l2_user_service_uat:5000",
+        url: "http://gn_user_service_uat:5000",
     },
     socketOptions: {
         pingInterval: 60 * 1000,
@@ -42,7 +42,7 @@ export default {
         },
     },
     sentry: {
-        sentryUrl: "http://d039f2abe16b4252a70cdf60fff232b6@10.2.190.51:9009/288",
+        sentryUrl: "https://874d2d9593d84ceca0f566c2d4723478@10.2.190.51:9009/304",
         logIdentifier: "keno-power",
         env: "UAT",
     },
